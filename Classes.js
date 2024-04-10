@@ -1,4 +1,4 @@
-// ES6 ne classes ko introduce kiya.
+// A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method.
 
 // Classes ek naye syntax hain JavaScript mein jo objects banane aur inheritance implement karne ke liye purani prototype-based approach ke muqable mein ek zyada familiar aur saaf syntax provide karte hain. Yeh constructor functions, methods, aur inheritance hierarchies ko intuitive tareeke se define karne ki suvidha dete hain.
 
@@ -43,6 +43,12 @@
 // }
 
 // Mukhyatah, ES6 mein classes JavaScript mein object-oriented programming ke concepts ko define karne ke liye ek zyada structured aur intuitive tareeka pradan karte hain. Ye syntax ko simplify karte hain aur complex code structures ke saath kaam karne ko aasan banate hain.
+
+// The super() method refers to the parent class.
+// By calling the super() method in the constructor method, we call the parent's constructor method and get access to the parent's properties and methods.
+
+// To create a class inheritance, use the extends keyword.
+// A class created with a class inheritance inherits all the methods from another class:
 
 
 // Class declaration
